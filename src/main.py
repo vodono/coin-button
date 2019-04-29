@@ -1,6 +1,11 @@
 import requests
 
-orders = requests.get('https://api.coingate.com/v2/orders')
+token = "DwfRsoxSUaDxV-jFatXz9EWMZ_3i_UsH-FF4yWeW"
 
-import ipdb
-ipdb.set_trace
+orders = requests.get('https://api-sandbox.coingate.com/v2/orders',
+                      headers={'Authorization': f'Token {token}'})
+
+print(orders)
+
+# import ipdb
+# ipdb.set_trace()
