@@ -17,4 +17,4 @@ Project can be start
 
 * or at heroku.com server. Example is deployed at: https://coin-button.herokuapp.com/
 
-Payment button is integrated with "https://sandbox.coingate.com" and accordingly all transactions are not real
+Payment link is to button from "https://sandbox.coingate.com" and accordingly all transactions are not real
