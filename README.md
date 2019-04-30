@@ -9,3 +9,12 @@ Make a very simple document to be easy for anyone to run your project.
 
 We do need a simple list which shows date and time, transaction status which shows it's pending or failed or successful and the amount.
 
+## Using
+Project can be start
+* locally by:
+    * running command from project folder: "python src/local_run.py"
+    * open local-host page "http://127.0.0.1:5000/" in browser
+
+* or at heroku.com server. Example is deployed at: https://coin-button.herokuapp.com/
+
+Payment button is integrated with "https://sandbox.coingate.com" and accordingly all transactions are not real
